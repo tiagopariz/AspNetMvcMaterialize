@@ -20,11 +20,11 @@ namespace AspNetMvcMaterialize.Web
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/materialize").Include(
-                      "~/Scripts/materialize.js",
+                      "~/Scripts/materialize/materialize.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/materialize.css",
+                      "~/Content/materialize/css/materialize.css",
                       "~/Content/site.css"));
         }
     }
